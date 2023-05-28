@@ -14,15 +14,25 @@ Most of the instruction is readily available within the code, but here is a gene
 6) Use DS9 to locate the correct pixel location of the 3.6 micron peaks
 7) Map the arms in the image. This has a learning curve as each parameter adjusts the arm shape differently. Not all galaxies will have the same amount of arms or arm segments so function calls will need to be added or removed.
 8) Find the pixel scale for the image and a cited distance to the target, VERY IMPORTANT! Usually you can find these in the hearer of your fits file (HDU). 
+
    example:
+   
             hdul = fits.open('NGC_1566_3.6.fits')  # open a FITS file
+            
             hdr = hdul[0].header  # the primary HDU header
+            
             hdr
+            
             ...
+            
             / TARGET AND POINTING INFORMATION
+            
             ...
+            
             PXSCAL1 =    -1.22334117768332 / [arcsec/pix] Scale for axis 1 at CRPIX1,CRPIX2 
+            
             PXSCAL2 =     1.22328355209902 / [arcsec/pix] Scale for axis 2 at CRPIX1,CRPIX2
+            
             
 9) cluster_DATA contains the arms and clusters assigned to each arm. The rest of the code is a data analysis template, so users could develope their own methods to view the information in this table. The plots included in this project can be adjusted to the users desire, but require careful adjustments to each plotting function.
 
