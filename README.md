@@ -2,7 +2,7 @@
 Star Cluster Age Distribution notebook for analysis of spiral structure in galaxies. This project makes use of the Legacy Extragalactic UV Survey data found here https://archive.stsci.edu/prepds/legus/dataproducts-public.html. You can learn more about the LEGUS project here https://legus.stsci.edu/.
 
 # About this project
-This project was a revisitation to my undergraduate research studying the mechnaism of spiral structure in galaxies using star cluster age distributions relative to the apparant spiral arms. During a graduate level galaxies class we were given a final project of our own choosing to showcase what we learned in the course. The code available here was the result of the project. The summary of my findings for NGC1566 can be found in analysis_summary. Essentially this project assigns star clusters to a spiral arm / structure to examine the age distribution. This can be used to study mechanisms of spiral formation such as 
+This project was a revisitation to my undergraduate research studying the mechnaism of spiral structure in galaxies using star cluster age distributions relative to the apparant spiral arms. During a graduate level galaxies class we were given a final project of our own choosing to showcase what we learned in the course. The code available here was the result of this project. Essentially this project assigns star clusters to a spiral arm / structure to examine the age distribution. This can be used to study mechanisms of spiral formation such as wave-density theory. The summary of my findings for NGC1566 can be found in analysis_summary.
 
 # How to use
 Most of the instruction is readily available within the code, but here is a general list of how to implement your own version of the project.
