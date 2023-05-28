@@ -38,10 +38,15 @@ Most of the instruction is readily available within the code, but here is a gene
 
 # Dependancies
 numpy
+
 matplotlib
+
 astropy
+
 pandas
+
 csv
+
 tablulate
 
 # Disclaimer
